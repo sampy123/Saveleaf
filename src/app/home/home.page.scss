@@ -1,31 +1,59 @@
-#container {
+.content{
+  position:fixed;
+  margin-top: 310px;
+  margin-left: 40px;
+}
+.buttons-action{
+  margin-left: 5px;
+}
+.signup-text{
+  font-size: x-small;
+  color: #a8a8a8;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  font-family: 'Nunito', sans-serif;
+  text-transform: none;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-input{
+  background-color: #ededed;
+  border-radius: 5px;
+  font-size: small;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.actionbutton{
+  background-color: rgb(64, 224, 72);
+  color: black;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 13px;
+  margin-top: 5px;
+  font-size: small;
+  font-family: 'Nunito', sans-serif;
 }
-
-#container a {
-  text-decoration: none;
+ion-checkbox{
+  background: #a04eff;
+  border-radius: 5px;
+  --height: 10px;
+  --width: 10px;
+  --checkmark-color: white;
+  --background-checked: #a04eff;
+  --border-color: #a04eff;
 }
-
-ion-content ion-toolbar {
-  --background: translucent;
+.line{
+  border-bottom: 1px solid grey;
+  margin-bottom: 16px;
+}
+.fbutton{
+  background-color: #3b5998;
+  color: cornsilk;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-family: 'Nunito', sans-serif;
+  text-transform: none;
+}
+.googlebutton{
+  background-color: #ea4335;
+  border-radius: 6px;
+  color: cornsilk;
+  margin-bottom: 12px;
+  font-family: 'Nunito', sans-serif;
+  text-transform: none;
 }
